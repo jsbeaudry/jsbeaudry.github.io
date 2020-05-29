@@ -13,21 +13,65 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Favicon -->
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="http://rainbowit.net/html/trydo/assets/images/favicon.ico"
-    />
+ 
 
     <!-- CSS
 	============================================ -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/fontawesome.css" />
+
     <link rel="stylesheet" href="./css/lightbox.css" />
     <link rel="stylesheet" href="./css/plugins.css" />
     <link rel="stylesheet" href="./css/style.css" />
+
+    <style>
+      .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 40px;
+        color: "white";
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+      
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+  
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      
+
+    
+  
+      </style>
   </head>
 
   <body
@@ -52,6 +96,8 @@
                 />
               </a>
             </div>
+
+
             <nav class="mainmenunav d-lg-block ml--50">
               <div class="navbar-example2">
                 <!-- Start Mainmanu Nav -->
@@ -91,52 +137,23 @@
           </div>
           <div class="header-right">
             <div class="social-share-inner">
+            
               <ul
                 class="social-share social-style--2 color-black d-flex justify-content-start liststyle"
               >
-                <li>
-                  <a href="#"
-                    ><img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png"
-                  /></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><img
-                      src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png"
-                  /></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><svg
-                      class="octicon octicon-mark-github v-align-middle"
-                      height="32"
-                      viewBox="0 0 16 16"
-                      version="1.1"
-                      width="32"
-                      aria-hidden="true"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
-                      ></path>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><img
-                      src="https://cliply.co/wp-content/uploads/2019/07/371907030_TWITTER_ICON_1080.png"
-                      style="min-width: 43px; margin-top: -5px;"
-                  /></a>
-                </li>
+              <a href="#" class="fa fa-facebook" style="color: white;"></a>
+              <a href="#" class="fa fa-twitter"  style="color: white;"></a>
+              <a href="#" class="fa fa-google"  style="color: white;"></a>
+              <a href="#" class="fa fa-linkedin"  style="color: white;"></a>
+              <a href="#" class="fa fa-instagram"  style="color: white;"></a>
+             
               </ul>
             </div>
-            <div class="header-btn ml_md--20 ml_sm--0">
+            <!-- <div class="header-btn ml_md--20 ml_sm--0">
               <a class="rn-btn btn-danger" href="#"
                 ><span>MY UI TEMPLATES</span></a
               >
-            </div>
+            </div> -->
             <!-- Start Humberger Menu  -->
             <div class="humberger-menu d-block d-lg-none pl--20 pl_sm--10">
               <span class="menutrigger text-white">
@@ -414,7 +431,7 @@
               <!-- Start Single Service  -->
               <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
                 <div class="single-service service__style--2 bg-color-gray">
-                  <a href="service-details.html">
+                  <a>
                     <div class="service">
                       <div class="icon">
                         <i data-feather="layers"></i>
@@ -422,8 +439,7 @@
                       <div class="content">
                         <h3 class="title">Website Development</h3>
                         <p>
-                          I throw myself down among the tall grass by the stream
-                          as I lie close to the earth.
+                          By using some modern technologies i can create powerful web site for your need. React, NextJS, Nodejs ...
                         </p>
                       </div>
                     </div>
@@ -435,7 +451,7 @@
               <!-- Start Single Service  -->
               <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
                 <div class="single-service service__style--2 bg-color-gray">
-                  <a href="service-details.html">
+                  <a>
                     <div class="service">
                       <div class="icon">
                         <i data-feather="users"></i>
@@ -443,8 +459,7 @@
                       <div class="content">
                         <h3 class="title">UI design prototype</h3>
                         <p>
-                          I throw myself down among the tall grass by the stream
-                          as I lie close to the earth.
+                          Before building it's better to create a design for project. That's help you to project yourself on what need as product.
                         </p>
                       </div>
                     </div>
@@ -456,7 +471,7 @@
               <!-- Start Single Service  -->
               <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
                 <div class="single-service service__style--2 bg-color-gray">
-                  <a href="service-details.html">
+                  <a>
                     <div class="service">
                       <div class="icon">
                         <i data-feather="activity"></i>
@@ -464,8 +479,7 @@
                       <div class="content">
                         <h3 class="title">Mobile Development</h3>
                         <p>
-                          I throw myself down among the tall grass by the stream
-                          as I lie close to the earth.
+                          Almost everyone get a smartphone today, i can build your dream app and make it available for the world.
                         </p>
                       </div>
                     </div>
@@ -599,6 +613,16 @@
                       email:
                       <a href="mailto:jeansauvenel.beaudry@gmail.com"> jeansauvenel.beaudry@gmail.com</a>
                     </p>
+                    <ul
+                    class="social-share social-style--2 color-black d-flex justify-content-start liststyle"
+                  >
+                  <a href="#" class="fa fa-facebook" style="color: white;"></a>
+                  <a href="#" class="fa fa-twitter"  style="color: white;"></a>
+                  <a href="#" class="fa fa-google"  style="color: white;"></a>
+                  <a href="#" class="fa fa-linkedin"  style="color: white;"></a>
+                  <a href="#" class="fa fa-instagram"  style="color: white;"></a>
+                 
+                  </ul>
                   </div>
                   <!-- <div class="form-wrapper">
                     <form>
@@ -682,28 +706,13 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
               <div class="inner text-center">
-                <ul
-                  class="social-share rn-lg-size d-flex justify-content-center liststyle"
-                >
-                  <li>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-skype"></i></a>
-                  </li>
-                </ul>
+             
               </div>
             </div>
             <div class="col-lg-4 col-md-12 col-sm-12 col-12">
               <div class="inner text-lg-right text-center mt_md--20 mt_sm--20">
                 <div class="text">
-                  <p>Copyright © 2020 Rainbow-Themes. All Rights Reserved.</p>
+                  <p>Copyright © 2020 JSBEAUDRY. All Rights Reserved.</p>
                 </div>
               </div>
             </div>
@@ -730,5 +739,5 @@
     <script src="./js/main.js"></script>
   </body>
 
-  <!-- Mirrored from rainbowit.net/html/trydo/04-landing-personal-portfolio-02.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2020 20:13:42 GMT -->
+
 </html>
